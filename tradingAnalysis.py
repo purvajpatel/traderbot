@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt  #library for plotting
 
 
 # Reddit API credentials
-client_id = 'JRSdzEF-EwY3lial42o0ig'
-client_secret = 'AQLZ6zdXvLD5rPs_0xMiB6vlhytuqQ'
+client_id = 'hidden'
+client_secret = 'hidden' # you can get your own at https://www.reddit.com/wiki/api/
 user_agent = 'test'
 
 # Initialize Reddit instance
