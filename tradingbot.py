@@ -17,7 +17,7 @@ ALPACA_CREDS = {
     "PAPER": True
 }
 
-class MLTrader(Strategy): 
+class WallStreetBets(Strategy): 
     def initialize(self, symbol:str="SPY", cash_at_risk:float=.05): 
         self.symbol = symbol
         self.sleeptime = "24H" 
@@ -70,7 +70,7 @@ class MLTrader(Strategy):
 start_date = datetime(2024,4,25)
 end_date = datetime(2024,5,29) 
 broker = Alpaca(ALPACA_CREDS) 
-strategy = MLTrader(name='mlstrat', broker=broker, 
+strategy = WallStreetBets(name='wallstreetbets', broker=broker, 
                     parameters={"symbol":"SPY", "cash_at_risk":.5})
 strategy.backtest(
     YahooDataBacktesting, 
