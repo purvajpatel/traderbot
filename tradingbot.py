@@ -7,8 +7,8 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta 
 from tradingAnalysis import trader 
 
-API_KEY = "PK7KGXRC3V9ISPHXFBNG" 
-API_SECRET = "v6JsB0uvtZNnOX76PfGvOR616Fg4LHKDeCKVuhpw" 
+API_KEY = "hidden"  
+API_SECRET = "hidden"  # you can get your own at https://paper-api.alpaca.markets/v2
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 
 ALPACA_CREDS = {
